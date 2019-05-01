@@ -10,9 +10,10 @@ import { Provider } from "react-redux";
 //2. create the store, pass in reducer
 
 const store = createStore(reducer);
+
 //3. Create reducer (move to its own file)
 
-//wrap provider and add store
+//4. wrap provider and add store
 render(
   <Provider store={store}>
     <App />
